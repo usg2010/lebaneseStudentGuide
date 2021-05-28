@@ -1,0 +1,17 @@
+@media (max-width:519px){
+
+.se{
+    left:5%;
+}
+
+.search-text{
+    width: 440px;
+}
+.material-icons{
+    margin-right: 0%;
+}
+
+input[type="reset" ] {
+    margin-top: 3.5px;
+}
+}

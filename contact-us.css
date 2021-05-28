@@ -1,0 +1,123 @@
+
+
+.contact{
+    
+    
+    width: 100%;
+    height: 100vh;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-wrapper{
+   width: 60%;
+   height: 75rem;
+   display: flex;
+   background-color: #fff;
+   box-shadow: 0 0rem 1rem rgb(30 167 149);
+   border-radius: 11px;
+}
+
+.contact-left{
+    width: 35%;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.87),rgba(0,0,0,0.5),
+    rgba(0,0,0,0)), gold;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+
+}
+.contact-right{
+    width: 65%;
+    background-color: white;
+    padding: 3rem 10rem 10rem 10rem;
+    border-radius: 0 10px 10px 0;
+
+}
+.contact-heading{
+    font-family: "Baloo Da 2",serif;
+    font-size: 6rem;
+    font-weight: 300;
+    color: #272727;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.contact-right form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-group{
+    position: relative;
+}
+
+.field{
+    width: 45rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.2rem solid #636363;
+    margin: 3rem 0;
+    padding: 1rem 1rem 1rem 0;
+    font-family: "Multi",serif;
+    font-size: 1.6rem;
+    color: #4b4b4b;
+}
+.input-group input{
+    height: 4rem;
+}
+.input-group textarea{
+   max-height: 7rem;
+   max-width: 45rem; 
+}
+.field:focus{
+    border-bottom-style:dotted ;
+}
+
+.input-group label{
+    position: absolute;
+    left: 0;
+    font-family: "Baloo Da 2",serif;
+    font-size: 1.8rem;
+    color: #4b4b4b;
+    text-transform: uppercase;
+    pointer-events: none;
+}
+.input-label{
+    bottom: 3rem;
+    font-weight: bold;
+}
+.message{
+    bottom: 6rem;
+    font-weight: bold;
+}
+.field:focus ~ label,
+.field:valid ~ label,
+.field:focus #l ~ label,
+.field:valid #l ~ label,
+.field:focus ~ textarea,
+.field:valid ~ textarea
+{
+  transform: translateY(-3rem);
+  font-size: 1.2rem ;  
+}
+
+.submit-btn{
+    width: 45rem;
+    height: 5rem;
+    background-color: gold ;
+    color: #fff;
+    border:none;
+    margin-top:2rem ;
+font-family: "Multi",serif;
+font-size: 2rem;
+font-weight: 300;
+text-transform: uppercase;
+letter-spacing: 2rem;
+cursor: pointer;
+text-shadow:0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+box-shadow:0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+}
+
+

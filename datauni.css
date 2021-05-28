@@ -1,0 +1,120 @@
+/*table{
+    margin:auto;
+}
+table,td,th{ 
+    text-align:center;
+    border:1px solid black;
+    width: -webkit-fill-available;
+    padding:5px;
+}
+th{background-color: darkseagreen;
+color: #fff;}
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+*{
+ margin:0;
+ padding: 0;
+ outline: 0;
+
+}
+.logo {
+    height: 92px;
+    width: auto;
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    }
+
+    .filter{
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    background: #505050; 
+    }
+
+table{
+    display: content;
+    z-index: 0;
+    margin:auto;
+    margin-bottom:30px;
+    margin-top: 90px;
+    padding: 2px;
+    top: 16px;
+    width: 95%;
+    right: 31%;
+    border-spacing: 2;
+    box-shadow: 0px 0px 5px 9px rgb(255 255 255 / 70%);
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #505050;
+
+
+}
+
+td , th{
+ padding: 15px 20px;
+ text-align: center;
+ border-radius: 10px;
+
+}
+th{
+ background-color: #c79f3c;
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: bold;
+ text-transform: uppercase;
+
+}
+tr{
+ width: 100%;
+ background-color: #293852;
+ color: white;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #888787;
+}
+
+.unisite {
+    text-decoration:none;
+    color: #fff;
+}
+.unisite:hover{
+    color:rgb(252, 196, 45);
+    font-size:18px;
+    transition: 0.5s;
+}
+.symbol{
+    text-transform: uppercase;
+}
+.uname{
+    width:auto ;
+}
+.imgpdf{
+    width:30px;
+     height:30px;
+     border-radius: 10px;
+}
+.imgpdf:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+/* custom scrollbar*/
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(219, 170, 35)),to(#293852));
+    box-shadow: inset 2px 2px 2px rgba(255,255,255,0.25),
+                inset -2px -2px -2px rgba(0,0,0,0.25);
+}
+::-webkit-scrollbar-track{
+    background: #3c3d3c;
+}
